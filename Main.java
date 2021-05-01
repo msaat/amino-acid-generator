@@ -4,7 +4,7 @@ class Main {
 
 while (true){
     Scanner one = new Scanner(System.in);  
-    System.out.println("enter the 3 letters that make up your chosen codon, in the format 'ACU' for example ");
+    System.out.println("enter the 3 letters that make up your chosen codon, in the format 'ACU' for example, or enter 'exit' to stop ");
     String acid = one.nextLine();
     if (acid.charAt(0) == 'U')
     {
@@ -140,6 +140,13 @@ while (true){
     {
       System.out.println("Glycine");
         }
+    }
+    else if (acid.equals("exit"))
+    {
+      break;
+        }
+    else {
+      System.out.println("\nNot a valid codon\n");
     }
   }
   }
