@@ -12,41 +12,41 @@ while (true){
       {
         if (acid.charAt(2) == 'U' || acid.charAt(2) == 'C')
         {
-          System.out.println("Phenylalanine");
+          System.out.println("Phenylalanine\n");
         }
         else
         {
-          System.out.println("Leucine");
+          System.out.println("Leucine\n");
         }
       }
       else if (acid.charAt(1) == 'C')
       {
-        System.out.println("Serine");
+        System.out.println("Serine\n");
       }
       else if (acid.charAt(1) == 'A')
       {
         if (acid.charAt(2) == 'U' ||acid.charAt(2) == 'C')
         {
-          System.out.println("Tyrosine");
+          System.out.println("Tyrosine\n");
         }
         else
         {
-          System.out.println("Stop");
+          System.out.println("Stop\n");
         }
       }
       else if (acid.charAt(1) == 'G')
       {
         if (acid.charAt(2) == 'U' ||acid.charAt(2) == 'C')
         {
-          System.out.println("Cysteine");
+          System.out.println("Cysteine\n");
         }
         else if (acid.charAt(2) == 'G')
         {
-          System.out.println("Tryptophan");
+          System.out.println("Tryptophan\n");
         }
         else
         {
-          System.out.println("Stop");
+          System.out.println("Stop\n");
         }
       }
     }
@@ -54,24 +54,24 @@ while (true){
     {
       if (acid.charAt(1) == 'U')
       {
-        System.out.println("Leucine");
+        System.out.println("Leucine\n");
       }
       else if (acid.charAt(1) == 'C')
       {
-        System.out.println("Proline");
+        System.out.println("Proline\n");
       }
       else if (acid.charAt(1) == 'G')
       {
-        System.out.println("Arginine");
+        System.out.println("Arginine\n");
       }
       else if (acid.charAt(1) == 'A')
       {
         if (acid.charAt(2) == 'U' || acid.charAt(2) == 'C')
         {
-          System.out.println("Histidine");
+          System.out.println("Histidine\n");
         }
         else{
-          System.out.println("Glutamine");
+          System.out.println("Glutamine\n");
         }
       }
     }
@@ -81,37 +81,37 @@ while (true){
       {
         if (acid.charAt(2) == 'G')
         {
-          System.out.println("Methianine");
+          System.out.println("Methianine\n");
         }
         else
         {
-          System.out.println("Isoleucine");
+          System.out.println("Isoleucine\n");
         }
       }
       else if (acid.charAt(1) == 'C')
       {
-        System.out.println("Threonine");
+        System.out.println("Threonine\n");
     }
     else if (acid.charAt(1) == 'A')
     {
       if (acid.charAt(2) == 'U' || acid.charAt(2) == 'C')
         {
-          System.out.println("Asparagine");
+          System.out.println("Asparagine\n");
         }
         else
         {
-          System.out.println("Lysine");
+          System.out.println("Lysine\n");
         }
     }
     else if (acid.charAt(1) == 'G')
     {
       if (acid.charAt(2) == 'U' || acid.charAt(2) == 'C')
         {
-          System.out.println("Serine");
+          System.out.println("Serine\n");
         }
         else
         {
-          System.out.println("Arginine");
+          System.out.println("Arginine\n");
         }
     }
   }
@@ -119,26 +119,26 @@ while (true){
     {
       if (acid.charAt(1) == 'U')
       {
-        System.out.println("Valine");
+        System.out.println("Valine\n");
       }
       else if (acid.charAt(1) == 'C')
       {
-        System.out.println("Alanine");
+        System.out.println("Alanine\n");
     }
     else if (acid.charAt(1) == 'A')
     {
       if (acid.charAt(2) == 'U' || acid.charAt(2) == 'C')
         {
-          System.out.println("Aspartic acid");
+          System.out.println("Aspartic acid\n");
         }
         else
         {
-          System.out.println("Glutamic acid");
+          System.out.println("Glutamic acid\n");
         }
     }
     else if (acid.charAt(1) == 'G')
     {
-      System.out.println("Glycine");
+      System.out.println("Glycine\n");
         }
     }
     else if (acid.equals("exit"))
@@ -146,7 +146,7 @@ while (true){
       break;
         }
     else {
-      System.out.println("\nNot a valid codon\n");
+      System.out.println("Not a valid codon\n");
     }
   }
   }
