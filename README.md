@@ -6,6 +6,7 @@ How it works:
 - the output will tell you what amino acid your sequence corresponds to
 
 How it looks:
+
 <img width="479" alt="Screen Shot 2021-05-06 at 11 28 54 PM" src="https://user-images.githubusercontent.com/83249290/117393807-ec859d00-aec2-11eb-8574-441a422aa885.png">
 
 
